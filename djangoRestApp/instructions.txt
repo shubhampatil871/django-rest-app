@@ -1,0 +1,20 @@
+To run the django app follow the steps below -->
+
+1.Inside the project directory open a terminal & create a virtual environment by entering the following commands.
+	--python3 -m venv venv
+
+
+2.Activate this virtual environment with 
+	--source venv/bin/activate or run the activate.bat file
+
+3.Install all the packages from requirements.txt file in the project root directory,No need to edit anything in the file.
+	--pip3 install requirements.txt
+make sure pip is installed in the system or it will throw error.
+
+
+4.Now migrate
+	--python3 manage.py migrate
+
+
+5.Start the APP 
+--python3 manage.py runserver
